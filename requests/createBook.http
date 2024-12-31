@@ -1,0 +1,11 @@
+POST http://localhost:3000/books
+Content-Type: application/json
+
+{
+  "title": "The best book",
+  "author": "John Doe",
+  "synopsis": "This books describe John Doe. So it's very interesting.",
+  "pages": 12345,
+  "price": 100000,
+  "isExists": false
+}
